@@ -5,7 +5,7 @@ body{
 
 .overall{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left:10% ;
     justify-content: center;
   
@@ -117,4 +117,29 @@ padding:2px ;
     font-size:12px ;
     font-weight: 400;
     font-family: "Poppins", sans-serif; 
+}
+
+@media only screen and (max-width: 768px) {
+    section{
+        display: flex;
+       flex-direction:column;
+       justify-content: center;
+        
+    }
+    .content img{
+        height:40px;
+        }
+        .content p{
+            font-family: "Poppins", sans-serif;
+            font-size:16pxpx;
+            
+          
+        }
+        
+        .login{
+        
+            background-color:red;
+        
+            
+        }
 }
